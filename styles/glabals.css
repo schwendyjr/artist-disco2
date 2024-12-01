@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.app {
+    text-align: center;
+}
+
+.artist-image {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.album {
+    margin: 10px 0;
+}
+
+.album-header {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
